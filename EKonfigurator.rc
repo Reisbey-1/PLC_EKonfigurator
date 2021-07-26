@@ -1,0 +1,384 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\EKonfigurator.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""afxres.rc""         // Standardkomponenten\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\EKonfigurator.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE_MD50 DIALOG DISCARDABLE  0, 0, 395, 362
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Eigenschaftenseite"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Englisch (USA) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About EKonfigurator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "EKonfigurator Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007 Ayfa Ltd.",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_EKONFIGURATOR_DIALOG DIALOGEX 0, 0, 532, 318
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION " E-Konfigurator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_RADIO0,"Button",BS_AUTORADIOBUTTON,7,24,9,8
+    EDITTEXT        IDC_EDIT2,22,22,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,7,36,9,8
+    EDITTEXT        IDC_EDIT3,22,34,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,7,48,9,8
+    EDITTEXT        IDC_EDIT4,22,46,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,7,60,9,8
+    EDITTEXT        IDC_EDIT5,22,58,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,7,72,9,8
+    EDITTEXT        IDC_EDIT6,22,70,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,7,84,9,8
+    EDITTEXT        IDC_EDIT7,22,82,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,7,97,9,8
+    EDITTEXT        IDC_EDIT8,22,94,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,7,109,9,8
+    EDITTEXT        IDC_EDIT9,22,107,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    7,122,9,8
+    EDITTEXT        IDC_EDIT10,22,120,45,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    7,134,9,8
+    EDITTEXT        IDC_EDIT11,22,131,45,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    7,146,9,8
+    EDITTEXT        IDC_EDIT12,22,144,45,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    7,158,9,8
+    EDITTEXT        IDC_EDIT13,22,155,45,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    7,170,9,8
+    EDITTEXT        IDC_EDIT14,22,168,45,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    7,181,9,8
+    EDITTEXT        IDC_EDIT15,22,179,45,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    7,193,9,8
+    EDITTEXT        IDC_EDIT16,22,192,45,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON,7,205,9,8
+    EDITTEXT        IDC_EDIT17,22,203,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON,7,217,9,8
+    EDITTEXT        IDC_EDIT18,22,216,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON,7,230,9,8
+    EDITTEXT        IDC_EDIT19,22,228,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON,7,242,9,8
+    EDITTEXT        IDC_EDIT20,22,240,45,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO19,"Button",BS_AUTORADIOBUTTON,7,254,9,8
+    EDITTEXT        IDC_EDIT21,22,252,45,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,332,22,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO20,"Button",BS_AUTORADIOBUTTON,373,25,9,8
+    EDITTEXT        IDC_EDIT23,332,34,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO21,"Button",BS_AUTORADIOBUTTON,373,38,9,8
+    EDITTEXT        IDC_EDIT24,332,46,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO22,"Button",BS_AUTORADIOBUTTON,373,49,9,8
+    EDITTEXT        IDC_EDIT25,332,58,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO23,"Button",BS_AUTORADIOBUTTON,373,62,9,8
+    EDITTEXT        IDC_EDIT26,332,70,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO24,"Button",BS_AUTORADIOBUTTON,373,73,9,8
+    EDITTEXT        IDC_EDIT27,332,82,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO25,"Button",BS_AUTORADIOBUTTON,373,86,9,8
+    EDITTEXT        IDC_EDIT28,332,94,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO26,"Button",BS_AUTORADIOBUTTON,373,98,9,8
+    EDITTEXT        IDC_EDIT29,332,107,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO27,"Button",BS_AUTORADIOBUTTON,373,110,9,8
+    EDITTEXT        IDC_EDIT30,332,119,37,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO28,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    373,123,9,8
+    EDITTEXT        IDC_EDIT31,332,131,37,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO29,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    373,135,9,8
+    EDITTEXT        IDC_EDIT32,332,143,37,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_RADIO30,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,
+                    373,147,9,8
+    EDITTEXT        IDC_EDIT33,332,155,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO31,"Button",BS_AUTORADIOBUTTON,373,159,9,8
+    EDITTEXT        IDC_EDIT34,332,167,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO32,"Button",BS_AUTORADIOBUTTON,373,171,9,8
+    EDITTEXT        IDC_EDIT35,332,179,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO33,"Button",BS_AUTORADIOBUTTON,373,182,9,8
+    EDITTEXT        IDC_EDIT36,332,191,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO34,"Button",BS_AUTORADIOBUTTON,373,194,9,8
+    EDITTEXT        IDC_EDIT37,332,203,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO35,"Button",BS_AUTORADIOBUTTON,373,206,9,8
+    EDITTEXT        IDC_EDIT38,332,215,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO36,"Button",BS_AUTORADIOBUTTON,373,218,9,8
+    EDITTEXT        IDC_EDIT39,332,228,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO37,"Button",BS_AUTORADIOBUTTON,373,231,9,8
+    EDITTEXT        IDC_EDIT40,332,240,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO38,"Button",BS_AUTORADIOBUTTON,373,243,9,8
+    EDITTEXT        IDC_EDIT41,332,252,37,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RADIO39,"Button",BS_AUTORADIOBUTTON,373,255,9,8
+    COMBOBOX        IDC_COMBO_MODES,396,23,52,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_PINS,396,48,52,324,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Digital Giris",IDC_RADIO_DIGITAL_IN,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,396,68,56,11
+    CONTROL         "Digital Cikis",IDC_RADIO_DIGITAL_OUT,"Button",
+                    BS_AUTORADIOBUTTON,396,82,56,8
+    CONTROL         "Analog Giris",IDC_RADIO_ANALOG_IN,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,396,95,56,8
+    CONTROL         "Analog Cikis",IDC_RADIO_ANALOG_OUT,"Button",
+                    BS_AUTORADIOBUTTON | WS_DISABLED,396,106,56,9
+    COMBOBOX        IDC_COMBO_REGISTER,396,132,72,324,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_PROCESSOR,467,80,48,46,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_BIT,474,132,50,324,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Update",IDB_UPDATE,396,150,128,14
+    COMBOBOX        IDC_COMBO_SPI_FREQUENCY,403,211,46,78,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Konfig. Sakla",IDC_BUTTON_SAVE,466,22,58,17
+    PUSHBUTTON      "Konfig. Ac",IDC_BUTTON_OPEN,466,44,58,17
+    DEFPUSHBUTTON   "OK",IDOK,470,276,54,14
+    PUSHBUTTON      "Cancel",IDCANCEL,470,297,54,14
+    LTEXT           "spi mod :",IDC_STATIC,396,15,52,8
+    LTEXT           "Pin :",IDC_STATIC,396,40,52,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,169,128,1
+    CONTROL         131,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_REALSIZEIMAGE,70,7,259,304
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,4,310,62,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,4,7,1,304
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,4,7,61,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,386,7,1,304
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,332,7,54,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,332,310,55,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,7,128,1
+    LTEXT           "Register :",IDC_STATIC,396,124,52,8
+    LTEXT           "Bit :",IDC_STATIC,474,124,50,8
+    GROUPBOX        " SPI ",IDC_STATIC_SPI,396,187,59,48
+    LTEXT           "spi frequency",IDC_STATIC,403,198,45,10
+    LTEXT           "processor",IDC_STATIC,468,68,45,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Ayfa Ltd.\0"
+            VALUE "FileDescription", "Embedded Konfigurator \0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "EKonfigurator\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "EK\0"
+            VALUE "OriginalFilename", "EKonfigurator.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "EKonfigurator Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_EKONFIGURATOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 524
+        VERTGUIDE, 22
+        VERTGUIDE, 67
+        VERTGUIDE, 332
+        VERTGUIDE, 369
+        VERTGUIDE, 374
+        VERTGUIDE, 396
+        VERTGUIDE, 403
+        VERTGUIDE, 448
+        VERTGUIDE, 455
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 311
+        HORZGUIDE, 22
+        HORZGUIDE, 170
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About EKonfigurator..."
+    IDS_STRING_TAG_CONFIG   "configuration"
+    IDS_STRING_TAG_ALLFILES "all files"
+    IDS_ERR_CAN_NOT_OPEN_CONFIG_FILE "can not open config file"
+END
+
+#endif    // Englisch (USA) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\EKonfigurator.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "afxres.rc"         // Standardkomponenten
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
