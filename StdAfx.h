@@ -21,11 +21,11 @@
 #include <afxcmn.h>			// MFC-Unterstützung für gängige Windows-Steuerelemente
 #endif // _AFX_NO_AFXCMN_SUPPORT
 
-#include "..\..\MdCommon\implement\MdCommon_Include.h"
-using namespace MdCommon ;
+#include "..\..\MCommon\implement\MCommon_Include.h"
+using namespace MCommon ;
 
 #include "..\..\EagCommon_6\implement\EagCommon_Include.h"
-using namespace MdCommon;
+using namespace eag;
 
 
 #include "..\..\dtl\implement\Globals_Include.h"

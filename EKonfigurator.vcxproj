@@ -69,7 +69,7 @@
       <WarningLevel>Level3</WarningLevel>
       <MinimalRebuild>true</MinimalRebuild>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>../../dtl/implement;..\..\Messanger\implement;..\..\Xmldll;..\..\MdCommon\implement;..\alco;../../eagcommon_6/implement/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../dtl/implement;..\..\Messanger\implement;..\..\Xmldll;..\..\MCommon\implement;..\alco;../../eagcommon_6/implement/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -101,7 +101,7 @@
       <SubSystem>Windows</SubSystem>
       <OutputFile>..\..\bin\EKonfigurator.exe</OutputFile>
       <AdditionalLibraryDirectories>..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MdCommond.lib;XmlDlld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>MCommond.lib;XmlDlld.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <UACExecutionLevel>AsInvoker</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>
@@ -114,7 +114,7 @@
       <Optimization>MaxSpeed</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>../../dtl/implement;..\..\Messanger\implement;..\..\Xmldll;..\..\MdCommon\implement;..\alco;../../eagcommon_6/implement/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../dtl/implement;..\..\Messanger\implement;..\..\Xmldll;..\..\MCommon\implement;..\alco;../../eagcommon_6/implement/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -144,7 +144,7 @@
       <SubSystem>Windows</SubSystem>
       <OutputFile>..\..\bin\EKonfigurator.exe</OutputFile>
       <AdditionalLibraryDirectories>..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MdCommon.lib;XmlDll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>MCommon.lib;XmlDll.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <UACExecutionLevel>AsInvoker</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>

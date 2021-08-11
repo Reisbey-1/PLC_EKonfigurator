@@ -1,5 +1,5 @@
 // EKonfigurator.h : Haupt-Header-Datei für die Anwendung EKONFIGURATOR
-// test kit
+// changed
 
 #if !defined(AFX_EKONFIGURATOR_H__824C7489_D7BC_400E_A623_97130AF5C4FA__INCLUDED_)
 #define AFX_EKONFIGURATOR_H__824C7489_D7BC_400E_A623_97130AF5C4FA__INCLUDED_
